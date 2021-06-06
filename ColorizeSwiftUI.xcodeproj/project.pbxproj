@@ -11,6 +11,11 @@
 		04E843ED266A69BD00201D41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E843EC266A69BD00201D41 /* ContentView.swift */; };
 		04E843EF266A69C300201D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E843EE266A69C300201D41 /* Assets.xcassets */; };
 		04E843F2266A69C300201D41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E843F1266A69C300201D41 /* Preview Assets.xcassets */; };
+		04E843FB266A6EA800201D41 /* ColorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E843FA266A6EA800201D41 /* ColorizeView.swift */; };
+		04E843FE266A799500201D41 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E843FD266A799500201D41 /* ColorSliderView.swift */; };
+		04E84401266D1B6A00201D41 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E84400266D1B6A00201D41 /* TextView.swift */; };
+		04E84406266D1C6400201D41 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E84405266D1C6400201D41 /* TextFieldView.swift */; };
+		04E84409266D242400201D41 /* FullSliderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E84408266D242400201D41 /* FullSliderDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		04E843EE266A69C300201D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E843F1266A69C300201D41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04E843F3266A69C300201D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E843FA266A6EA800201D41 /* ColorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeView.swift; sourceTree = "<group>"; };
+		04E843FD266A799500201D41 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
+		04E84400266D1B6A00201D41 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		04E84405266D1C6400201D41 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		04E84408266D242400201D41 /* FullSliderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSliderDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			children = (
 				04E843EA266A69BD00201D41 /* ColorizeSwiftUIApp.swift */,
 				04E843EC266A69BD00201D41 /* ContentView.swift */,
+				04E84403266D1C4600201D41 /* ViewModels */,
 				04E843EE266A69C300201D41 /* Assets.xcassets */,
 				04E843F3266A69C300201D41 /* Info.plist */,
 				04E843F0266A69C300201D41 /* Preview Content */,
@@ -67,6 +78,18 @@
 				04E843F1266A69C300201D41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04E84403266D1C4600201D41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04E843FA266A6EA800201D41 /* ColorizeView.swift */,
+				04E84408266D242400201D41 /* FullSliderDetail.swift */,
+				04E843FD266A799500201D41 /* ColorSliderView.swift */,
+				04E84400266D1B6A00201D41 /* TextView.swift */,
+				04E84405266D1C6400201D41 /* TextFieldView.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E843ED266A69BD00201D41 /* ContentView.swift in Sources */,
+				04E843FE266A799500201D41 /* ColorSliderView.swift in Sources */,
+				04E84406266D1C6400201D41 /* TextFieldView.swift in Sources */,
+				04E843FB266A6EA800201D41 /* ColorizeView.swift in Sources */,
+				04E84409266D242400201D41 /* FullSliderDetail.swift in Sources */,
 				04E843EB266A69BD00201D41 /* ColorizeSwiftUIApp.swift in Sources */,
+				04E84401266D1B6A00201D41 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
